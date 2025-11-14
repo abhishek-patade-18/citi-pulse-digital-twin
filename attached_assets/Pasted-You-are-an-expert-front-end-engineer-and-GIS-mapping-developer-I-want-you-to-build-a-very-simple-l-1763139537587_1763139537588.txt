@@ -1,0 +1,100 @@
+You are an expert front-end engineer and GIS mapping developer. I want you to build a very simple, lightweight Digital Twin web application for one city (Nashik) using only basic web technologies like React (or HTML-CSS-JS if simpler). Do NOT use heavy frameworks like Reflex, Django, Node backends, etc. Keep everything front-end only.
+
+Your primary requirement:
+→ Completely follow and recreate the same layout, UI, components, colors, card styles, navigation, graphs, and map design shown in my files (dashboard, map, alerts, analytics).  
+→ Do NOT change the design. Only rebuild it in simple web code.
+
+The Digital Twin app must include these modules, but all with dummy data only:
+
+1. **3D Map Page (Live Map View)**  
+   - Use Mapbox GL JS (or any simple library) for a Nashik map.  
+   - Add simple 3D buildings or a dummy 3D campus placeholder.  
+   - Add multiple map views:  
+       • Street  
+       • Satellite  
+       • Environmental (AQI layer)  
+       • Crowd Heatmap Layer  
+       • CO₂ Color Zone Layer  
+   - Add buttons/tabs to switch between views (matching my design).  
+   - Add marker icons for “pollution hotspots”, “crowd zones”, “traffic”, etc., using dummy data.
+
+2. **Dashboard Page**  
+   - Recreate the same dashboard layout I have:  
+       • AQI card  
+       • CO₂ card  
+       • Traffic card  
+       • Flood/Weather card  
+       • Summary section  
+   - Use the same card design from my PPT.  
+   - Use dummy numbers that refresh every few seconds using JavaScript timers.
+
+3. **Alerts Page**  
+   - Recreate my alerts UI design (vertical alert cards).  
+   - Alerts must include:  
+       • Air quality alert  
+       • Weather alert  
+       • CO₂ high alert  
+       • Traffic congestion alert  
+       • Crowd density alert  
+   - Use dummy alert generation logic (e.g., every 10 seconds create one fake alert).
+
+4. **Analytics Page**  
+   - Recreate the same analytics design (charts section).  
+   - Use Chart.js or similar to show:  
+       • AQI today vs last month vs last year  
+       • CO₂ timeline  
+       • Temperature trends  
+       • Rainfall comparison  
+   - All data should be dummy static arrays.
+
+5. **Sensors/Modules Folder**  
+   - Create simple JS modules like:  
+       • air_quality.js  
+       • weather.js  
+       • traffic.js  
+       • camera.js  
+       • water.js  
+   - Each module must export:  
+       • getDummyData() function  
+       • randomizer to simulate live data  
+       • alertRules() function that decides when an alert is triggered.  
+
+6. **Navigation**  
+   - Exactly same navbar look as in my PPT and app design.  
+   - Tabs:  
+       • Home  
+       • Live Map  
+       • Alerts  
+       • Analytics  
+       • Sensors  
+       • About  
+
+7. **Preserve my design**  
+   - Colors, style, gradients, card shadows, borders must match my original layout.  
+   - UI must look visually identical to the PPT/screenshots.  
+   - Use clean modern CSS (no frameworks needed unless you prefer Tailwind).
+
+8. **Output Requirements**  
+   - Provide full folder structure.  
+   - Provide complete working code for every file.  
+   - Provide CSS for matching the exact design.  
+   - Provide dummy GeoJSON for CO₂ zones, heatmap, and hotspots.  
+   - Provide instructions on how to run the app with:  
+       npm install  
+       npm run dev  
+   - Explain how to replace dummy data with real APIs later.
+
+9. **Keep the code extremely simple.**  
+   - No backend.  
+   - No complex state management.  
+   - Just simple React components or pure JS modules.
+
+10. **Deliverables at the end:**  
+   - Complete project code  
+   - Map, alerts, dashboard, analytics pages  
+   - Dummy sensor modules  
+   - Dummy GeoJSON  
+   - Instructions to run  
+   - Notes for future upgrade
+
+Build everything strictly following these instructions and matching my design.
