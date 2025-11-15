@@ -1,4 +1,4 @@
-# citi-pulse-digital-twin# 🌆 CitiPulse – Real-Time Digital Twin for Smarter & Greener Cities  
+🌆 CitiPulse – Real-Time Digital Twin for Smarter & Greener Cities  
 
 **See the Invisible. Predict the Inevitable.**
 
@@ -12,7 +12,7 @@ CitiPulse aims at one mission:
 See the invisible. Predict the inevitable. Build safer, sustainable cities.
 
 ###  Dashboard Preview  
-*(Insert your dashboard image here)*  
+  
 <img src="images/dashboard.png" width="800">
 
 ---
@@ -48,7 +48,7 @@ All sensor streams processed through scalable backend infrastructure.
 </p>
 
 <p align="center">
-  <img src="images/aqi_heatmap.png" width="60%" />
+  <img src="images/AQI_heatmap.png" width="60%" />
 </p>
 
 ---
@@ -85,17 +85,19 @@ All sensor streams processed through scalable backend infrastructure.
 ```bash
 git clone https://github.com/your-repo/CitiPulse.git
 cd CitiPulse
+
+
 ---
 
-### 2️⃣ Install Dependencies
+###  Install Dependencies
 
 pip install -r requirements.txt
 
-### 3️⃣ Run Backend Server
+###  Run Backend Server
 
 uvicorn app.main:app --reload
 
-### 4️⃣ Open Dashboard in Browser
+###  Open Dashboard in Browser
 
 http://127.0.0.1:8000
 
