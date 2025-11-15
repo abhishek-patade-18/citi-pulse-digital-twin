@@ -43,12 +43,12 @@ All sensor streams processed through scalable backend infrastructure.
 
 
 <p float="left">
-  <img src="images/AQI_heatmap.png" width="45%" />
-  <img src="images/streets.png" width="45%" />
+  <img src="images/AQI_heatmap.png" width="50%" />
+  <img src="images/streets.png" width="50%" />
 </p>
 
 <p align="center">
-  <img src="images/satelight.png" width="60%" />
+  <img src="images/satelight.png" width="70%" />
 </p>
 
 ---
@@ -73,8 +73,8 @@ All sensor streams processed through scalable backend infrastructure.
 
 
 <p float="left" align="center">
-  <img src="images/result1.png" width="45%" />
-  <img src="images/result2.png" width="45%" />
+  <img src="images/result1.png" width="55%" />
+  <img src="images/result2.png" width="55%" />
 </p>
 
 ---
