@@ -1,4 +1,4 @@
-🌆 CitiPulse – Real-Time Digital Twin for Smarter & Greener Cities  
+# 🌆 CitiPulse – Real-Time Digital Twin for Smarter & Greener Cities  
 
 **See the Invisible. Predict the Inevitable.**
 
@@ -11,7 +11,7 @@ CitiPulse aims at one mission:
 
 See the invisible. Predict the inevitable. Build safer, sustainable cities.
 
-###  Dashboard Preview  
+##  Dashboard Preview  
   
 <img src="images/dashboard.png" width="800">
 
@@ -40,10 +40,10 @@ All sensor streams processed through scalable backend infrastructure.
 ---
 
 ## 🌐 Satellite, Street & AQI Layers  
-*(3 images arranged as requested — two on top, one below)*
+
 
 <p float="left">
-  <img src="images/satellite.png" width="45%" />
+  <img src="images/satelite.png" width="45%" />
   <img src="images/streets.png" width="45%" />
 </p>
 
@@ -70,7 +70,7 @@ All sensor streams processed through scalable backend infrastructure.
 ## 📷 Example Results
 
 ### 🔍 Flood & Air Quality Results  
-*(2 images placed at the top as requested)*
+
 
 <p float="left" align="center">
   <img src="images/result1.png" width="45%" />
