@@ -43,7 +43,7 @@ All sensor streams processed through scalable backend infrastructure.
 
 
 <p float="left">
-  <img src="images/satelite.png" width="45%" />
+  <img src="images/satelight.png" width="45%" />
   <img src="images/streets.png" width="45%" />
 </p>
 
