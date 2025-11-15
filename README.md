@@ -1,6 +1,6 @@
 # 🌆 CitiPulse – Real-Time Digital Twin for Smarter & Greener Cities  
 
-## See the Invisible. Predict the Inevitable.
+
 
 CitiPulse is an AI-driven Real-Time Digital Twin Platform designed to visualize, predict, and mitigate climate-related urban challenges.
 It creates a live digital replica of the city—integrating environmental sensors, weather data, 3D mapping, and AI predictions to help authorities, citizens, and planners make data-driven decisions.
