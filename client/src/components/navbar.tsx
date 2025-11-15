@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <Link href="/dashboard" className="hover-elevate active-elevate-2" data-testid="link-home">
             <h2 className="text-2xl font-bold" data-testid="text-app-title">
-              Nashik Digital Twin
+              Nashik City Digital Twin
             </h2>
           </Link>
           

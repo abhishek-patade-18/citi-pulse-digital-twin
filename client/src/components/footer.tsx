@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
       </div>
       <p className="text-sm text-slate-500" data-testid="text-copyright">
-        Nashik Digital Twin © 2024 - A Smart City Monitoring Platform
+        Nashik City Digital Twin © 2025 - A Smart City Monitoring Platform
       </p>
     </footer>
   );
